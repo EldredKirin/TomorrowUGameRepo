@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/StartingMenus/TitleScreen.unity
+    guid: 2da80fbc2706c7a468ab923a522a18c8
+  - enabled: 1
+    path: Assets/Scenes/StartingMenus/InfoScreen.unity
+    guid: c4779f9c19010a04aa8c364c853e7b42
+  - enabled: 1
+    path: Assets/Scenes/StartingMenus/CreationScreen.unity
+    guid: e31c3a3018e15b2469c9ad17de50cc53
+  - enabled: 1
+    path: Assets/Scenes/StartingMenus/ScheduleScreen.unity
+    guid: 4843b2a27a1cfa94dbc1107fe02e7718
+  - enabled: 1
+    path: Assets/Scenes/Overworld/MainScenes/SuburbStart.unity
+    guid: a70c03011eb9f134d9ad2238a2ca3fce
+  - enabled: 1
+    path: Assets/Scenes/Overworld/MainScenes/Suburbs.unity
+    guid: 87d166eaf9093c44d9f5198c779563a3
+  - enabled: 1
+    path: Assets/Scenes/Overworld/MainScenes/TownSquare.unity
+    guid: 7fd147c005a09da4b89e81ae18867bba
+  - enabled: 1
+    path: Assets/Scenes/Overworld/MainScenes/LowIncome.unity
+    guid: 4500afaa86c3f344f9d479d0a8a1a265
+  - enabled: 1
+    path: Assets/Scenes/Incomplete/HouseInterior.unity
+    guid: d83048ce40f0337419d41b4dcf29753e
+  - enabled: 1
+    path: Assets/Scenes/Incomplete/Wealthy.unity
+    guid: 1b42bf91d87064a42b4f02528bb096a2
+  - enabled: 1
+    path: Assets/Scenes/Overworld/School/School.unity
+    guid: 9d6ab9a7b65c6eb4dbe02a9e000de39e
+  - enabled: 1
+    path: Assets/Scenes/Overworld/School/SchoolInteriorMain.unity
+    guid: a64ccd738a9e0424a80d47409f866f36
+  - enabled: 1
+    path: Assets/Scenes/Overworld/School/SchoolInterior2.unity
+    guid: 49030fc992ea7be46ae97bd837034175
+  - enabled: 1
+    path: Assets/Scenes/Incomplete/Industry.unity
+    guid: f42a02ba4b2d81a47b0f94948abb5dc4
+  - enabled: 1
+    path: Assets/Scenes/Overworld/School/College.unity
+    guid: 2bcdae371a74f574caac6016fa47bb19
+  - enabled: 1
+    path: Assets/Scenes/Minigames/Track.unity
+    guid: fbd43f4b2d4afb44eb885b30af7c20b6
+  - enabled: 1
+    path: Assets/Scenes/Minigames/StackAttack.unity
+    guid: 75384d046afdd6d489f05fff39f8a068
+  - enabled: 1
+    path: Assets/Scenes/Minigames/FallingMath.unity
+    guid: b401a8e17fb2de643871e23ef9e5dff3
+  - enabled: 1
+    path: Assets/Scenes/Minigames/Skateboarding.unity
+    guid: af7927c170001b643976a64d13749f81
+  - enabled: 1
+    path: Assets/Scenes/Minigames/Speech.unity
+    guid: 5feb7cb6a9ab6ee45a76b7053e3cb640
+  - enabled: 1
+    path: Assets/Scenes/StartingMenus/EndDay.unity
+    guid: 0af93c5769b605144aeb8b8d3c576058
+  - enabled: 1
+    path: Assets/Scenes/Minigames/English.unity
+    guid: a94782bf10c9f5f47bd7e98b0816310c
+  - enabled: 1
+    path: Assets/Scenes/Minigames/Antivirus.unity
+    guid: 0208cd9afe76dd14e818d4574081336a
+  - enabled: 1
+    path: Assets/Scenes/Minigames/Chemistry Chaos.unity
+    guid: 66a34fdd991ba2c4aa7a63d06147df3f
+  m_configObjects: {}
