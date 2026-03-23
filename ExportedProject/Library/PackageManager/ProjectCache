@@ -1,6 +1,6 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/Brenden/Downloads/Tomorrow/ExportedProject/Packages/manifest.json
+    m_FilePath: C:/Users/Brenden/OneDrive/Documents/GitHub/Tomorrow/TomorrowUGameRepo/ExportedProject/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
@@ -8,7 +8,7 @@ m_ProjectFiles:
       ticks: 639093600379653834
     m_Hash: 3707898395
   m_LockFileStatus:
-    m_FilePath: C:/Users/Brenden/Downloads/Tomorrow/ExportedProject/Packages/packages-lock.json
+    m_FilePath: C:/Users/Brenden/OneDrive/Documents/GitHub/Tomorrow/TomorrowUGameRepo/ExportedProject/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
@@ -25,7 +25,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.4
       source: 1
-      resolvedPath: C:\Users\Brenden\Downloads\Tomorrow\ExportedProject\Library\PackageCache\com.unity.ai.navigation@1.1.4
+      resolvedPath: C:\Users\Brenden\OneDrive\Documents\GitHub\Tomorrow\TomorrowUGameRepo\ExportedProject\Library\PackageCache\com.unity.ai.navigation@1.1.4
       assetPath: Packages/com.unity.ai.navigation
       name: com.unity.ai.navigation
       displayName: AI Navigation
@@ -1840,5 +1840,5 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: C:/Users/Brenden/Downloads/Tomorrow/ExportedProject/Packages
+m_ProjectPath: C:/Users/Brenden/OneDrive/Documents/GitHub/Tomorrow/TomorrowUGameRepo/ExportedProject/Packages
 m_EditorVersion: 2020.3.5f1 (8095aa901b9b)
