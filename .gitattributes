@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+ExportedProject/Library/Il2cppBuildCache/WebGL/Native/build.bc filter=lfs diff=lfs merge=lfs -text
+ExportedProject/Library/il2cpp_cache/linkresult_2802073EAB8DD844DCF1593710BE4D32/build.bc filter=lfs diff=lfs merge=lfs -text
