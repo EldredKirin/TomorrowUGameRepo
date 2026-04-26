@@ -1,125 +1,12 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!104 &86
-RenderSettings:
-  serializedVersion: 9
-  m_ObjectHideFlags: 0
-  m_Fog: 0
-  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-  m_FogMode: 3
-  m_FogDensity: 0.01
-  m_LinearFogStart: 0
-  m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
-  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
-  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 1
-  m_AmbientMode: 3
-  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 0}
-  m_HaloStrength: 0.5
-  m_FlareStrength: 1
-  m_FlareFadeSpeed: 3
-  m_HaloTexture: {fileID: 0}
-  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
-  m_DefaultReflectionMode: 0
-  m_DefaultReflectionResolution: 128
-  m_ReflectionBounces: 1
-  m_ReflectionIntensity: 1
-  m_CustomReflection: {fileID: 0}
-  m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
-  m_UseRadianceAmbientProbe: 0
---- !u!157 &87
-LightmapSettings:
-  serializedVersion: 12
-  m_ObjectHideFlags: 0
-  m_GIWorkflowMode: 1
-  m_GISettings:
-    serializedVersion: 2
-    m_BounceScale: 1
-    m_IndirectOutputScale: 1
-    m_AlbedoBoost: 1
-    m_EnvironmentLightingMode: 0
-    m_EnableBakedLightmaps: 0
-    m_EnableRealtimeLightmaps: 0
-  m_LightmapEditorSettings:
-    serializedVersion: 12
-    m_Resolution: 2
-    m_BakeResolution: 40
-    m_AtlasSize: 1024
-    m_AO: 0
-    m_AOMaxDistance: 1
-    m_CompAOExponent: 1
-    m_CompAOExponentDirect: 0
-    m_ExtractAmbientOcclusion: 0
-    m_Padding: 2
-    m_LightmapParameters: {fileID: 0}
-    m_LightmapsBakeMode: 1
-    m_TextureCompression: 1
-    m_FinalGather: 0
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 256
-    m_ReflectionCompression: 2
-    m_MixedBakeMode: 2
-    m_BakeBackend: 0
-    m_PVRSampling: 1
-    m_PVRDirectSampleCount: 32
-    m_PVRSampleCount: 500
-    m_PVRBounces: 2
-    m_PVREnvironmentSampleCount: 256
-    m_PVREnvironmentReferencePointCount: 2048
-    m_PVRFilteringMode: 1
-    m_PVRDenoiserTypeDirect: 1
-    m_PVRDenoiserTypeIndirect: 1
-    m_PVRDenoiserTypeAO: 1
-    m_PVRFilterTypeDirect: 0
-    m_PVRFilterTypeIndirect: 0
-    m_PVRFilterTypeAO: 0
-    m_PVREnvironmentMIS: 1
-    m_PVRCulling: 1
-    m_PVRFilteringGaussRadiusDirect: 1
-    m_PVRFilteringGaussRadiusIndirect: 5
-    m_PVRFilteringGaussRadiusAO: 2
-    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
-    m_PVRFilteringAtrousPositionSigmaIndirect: 2
-    m_PVRFilteringAtrousPositionSigmaAO: 1
-    m_ExportTrainingData: 0
-    m_TrainingDataDestination: TrainingData
-    m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 9c09cef1f25d1a847a3ecf59b34ebab8, type: 2}
-  m_LightingSettings: {fileID: 0}
---- !u!196 &88
-NavMeshSettings:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_BuildSettings:
-    serializedVersion: 2
-    agentTypeID: 0
-    agentRadius: 0.5
-    agentHeight: 2
-    agentSlope: 45
-    agentClimb: 0.4
-    ledgeDropHeight: 0
-    maxJumpAcrossDistance: 0
-    minRegionArea: 2
-    manualCellSize: 0
-    cellSize: 0.16666667
-    manualTileSize: 0
-    tileSize: 256
-    accuratePlacement: 0
-    maxJobWorkers: 0
-    preserveTilesOutsideBounds: 0
-    debug:
-      m_Flags: 0
-  m_NavMeshData: {fileID: 0}
 --- !u!1 &1
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 137}
   m_Layer: 5
@@ -131,11 +18,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &2
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 138}
   - component: {fileID: 101}
@@ -149,11 +36,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &3
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 139}
   m_Layer: 5
@@ -165,11 +52,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &4
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 140}
   m_Layer: 5
@@ -181,11 +68,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &5
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 141}
   - component: {fileID: 102}
@@ -199,11 +86,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &6
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 142}
   - component: {fileID: 103}
@@ -217,11 +104,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &7
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 143}
   - component: {fileID: 104}
@@ -238,11 +125,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &8
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 144}
   - component: {fileID: 105}
@@ -256,11 +143,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &9
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 61}
   - component: {fileID: 77}
@@ -275,11 +162,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &10
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 145}
   - component: {fileID: 106}
@@ -293,11 +180,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &11
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 146}
   - component: {fileID: 107}
@@ -311,11 +198,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &12
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 147}
   - component: {fileID: 108}
@@ -329,11 +216,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &13
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 148}
   - component: {fileID: 109}
@@ -347,11 +234,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &14
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 149}
   - component: {fileID: 136}
@@ -366,11 +253,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &15
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 150}
   - component: {fileID: 110}
@@ -384,11 +271,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &16
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 151}
   - component: {fileID: 111}
@@ -402,11 +289,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &17
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 62}
   - component: {fileID: 198}
@@ -420,11 +307,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &18
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 152}
   - component: {fileID: 112}
@@ -438,11 +325,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &19
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 153}
   - component: {fileID: 113}
@@ -456,11 +343,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &20
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 63}
   - component: {fileID: 181}
@@ -474,11 +361,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &21
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 154}
   - component: {fileID: 114}
@@ -494,11 +381,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &22
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 155}
   m_Layer: 5
@@ -510,11 +397,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &23
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 156}
   - component: {fileID: 115}
@@ -529,11 +416,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &24
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 157}
   - component: {fileID: 116}
@@ -547,11 +434,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &25
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 158}
   - component: {fileID: 117}
@@ -565,11 +452,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &26
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 64}
   - component: {fileID: 89}
@@ -583,11 +470,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &27
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 159}
   m_Layer: 5
@@ -599,11 +486,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &28
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 160}
   - component: {fileID: 118}
@@ -619,11 +506,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &29
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 161}
   - component: {fileID: 119}
@@ -637,11 +524,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &30
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 162}
   - component: {fileID: 120}
@@ -655,11 +542,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &31
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 163}
   - component: {fileID: 121}
@@ -673,11 +560,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &32
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 164}
   - component: {fileID: 122}
@@ -691,11 +578,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &33
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 165}
   - component: {fileID: 123}
@@ -709,11 +596,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &34
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 166}
   m_Layer: 5
@@ -725,11 +612,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &35
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 65}
   - component: {fileID: 90}
@@ -743,11 +630,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &36
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 167}
   - component: {fileID: 124}
@@ -761,11 +648,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &37
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 168}
   - component: {fileID: 125}
@@ -779,11 +666,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &38
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 169}
   m_Layer: 5
@@ -795,11 +682,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &39
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 170}
   - component: {fileID: 126}
@@ -813,11 +700,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &40
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 171}
   m_Layer: 5
@@ -829,11 +716,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &41
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 66}
   - component: {fileID: 218}
@@ -846,11 +733,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &42
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 172}
   - component: {fileID: 127}
@@ -864,11 +751,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &43
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 173}
   - component: {fileID: 128}
@@ -882,11 +769,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &44
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 174}
   - component: {fileID: 129}
@@ -900,11 +787,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &45
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 175}
   - component: {fileID: 130}
@@ -918,11 +805,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &46
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 67}
   - component: {fileID: 224}
@@ -936,11 +823,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &47
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 176}
   - component: {fileID: 131}
@@ -954,11 +841,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &48
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 177}
   - component: {fileID: 132}
@@ -972,11 +859,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &49
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 178}
   - component: {fileID: 133}
@@ -990,11 +877,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &50
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 179}
   - component: {fileID: 134}
@@ -1008,11 +895,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &51
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 180}
   - component: {fileID: 135}
@@ -1026,11 +913,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &52
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 73}
   - component: {fileID: 96}
@@ -1043,11 +930,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &53
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 71}
   - component: {fileID: 100}
@@ -1060,11 +947,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &54
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 72}
   - component: {fileID: 99}
@@ -1077,11 +964,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &55
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 74}
   - component: {fileID: 93}
@@ -1094,11 +981,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &56
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 76}
   - component: {fileID: 94}
@@ -1111,11 +998,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &57
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 75}
   - component: {fileID: 79}
@@ -1134,11 +1021,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &58
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 68}
   - component: {fileID: 97}
@@ -1151,11 +1038,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &59
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 70}
   - component: {fileID: 98}
@@ -1168,11 +1055,11 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &60
 GameObject:
-  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 69}
   - component: {fileID: 95}
@@ -1224,7 +1111,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
 --- !u!4 &64
 Transform:
@@ -1238,7 +1125,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -90, y: -0, z: 0}
 --- !u!4 &65
 Transform:
@@ -1252,7 +1139,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: -90, y: -0, z: 0}
 --- !u!4 &66
 Transform:
@@ -1266,7 +1153,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
 --- !u!4 &67
 Transform:
@@ -1401,7 +1288,7 @@ Transform:
   - {fileID: 61}
   - {fileID: 72}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
 --- !u!4 &76
 Transform:
@@ -1419,13 +1306,13 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &77
 Camera:
-  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9}
   m_Enabled: 1
+  serializedVersion: 2
   m_ClearFlags: 2
   m_BackGroundColor: {r: 0, g: 0.003921569, b: 0.08235294, a: 0}
   m_projectionMatrixMode: 1
@@ -1450,7 +1337,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
+  m_TargetTexture: {fileID: 8400000, guid: 1f8065abd1e91b348a9bcc4767a420af, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
@@ -1483,7 +1370,6 @@ Rigidbody2D:
   m_Constraints: 7
 --- !u!61 &79
 BoxCollider2D:
-  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1505,6 +1391,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
+  serializedVersion: 2
   m_Size: {x: 0.76398486, y: 0.25}
   m_EdgeRadius: 0
 --- !u!81 &80
@@ -1517,13 +1404,13 @@ AudioListener:
   m_Enabled: 1
 --- !u!82 &81
 AudioSource:
-  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 17}
   m_Enabled: 1
+  serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: fcf2e2f920461424dacc51ddde6067d9, type: 3}
   m_PlayOnAwake: 1
@@ -1626,7 +1513,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
-  m_WarningMessage:
+  m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
@@ -1645,7 +1532,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
-  m_WarningMessage:
+  m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
@@ -1664,7 +1551,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
-  m_WarningMessage:
+  m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
@@ -1683,18 +1570,131 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
-  m_WarningMessage:
+  m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!104 &86
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &87
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 112000000, guid: 9c09cef1f25d1a847a3ecf59b34ebab8, type: 2}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &88
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
 --- !u!198 &89
 ParticleSystem:
-  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 26}
+  serializedVersion: 7
   lengthInSec: 5
   simulationSpeed: 0.2
   stopAction: 0
@@ -1714,13 +1714,49 @@ ParticleSystem:
     minScalar: 0
     maxCurve:
       serializedVersion: 2
-      m_Curve: []
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     minCurve:
       serializedVersion: 2
-      m_Curve: []
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -2047,8 +2083,8 @@ ParticleSystem:
           m_PostInfinity: 2
           m_RotationOrder: 4
   EmissionModule:
-    serializedVersion: 4
     enabled: 1
+    serializedVersion: 4
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
@@ -3267,8 +3303,8 @@ ParticleSystem:
         m_NumAlphaKeys: 2
     range: {x: 0, y: 3}
   CollisionModule:
-    serializedVersion: 4
     enabled: 0
+    serializedVersion: 4
     type: 0
     collisionMode: 0
     colliderForce: 0
@@ -3340,8 +3376,8 @@ ParticleSystem:
     collidesWithDynamic: 1
     interiorCollisions: 0
   TriggerModule:
-    serializedVersion: 2
     enabled: 0
+    serializedVersion: 2
     inside: 1
     outside: 0
     enter: 0
@@ -3644,7 +3680,7 @@ ParticleSystem:
         m_Mode: 0
         m_NumColorKeys: 2
         m_NumAlphaKeys: 2
-    colorLabel0:
+    colorLabel0: Color
     vector0_0:
       serializedVersion: 2
       minMaxState: 0
@@ -3662,7 +3698,7 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    vectorLabel0_0:
+    vectorLabel0_0: X
     vector0_1:
       serializedVersion: 2
       minMaxState: 0
@@ -3680,7 +3716,7 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    vectorLabel0_1:
+    vectorLabel0_1: Y
     vector0_2:
       serializedVersion: 2
       minMaxState: 0
@@ -3698,7 +3734,7 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    vectorLabel0_2:
+    vectorLabel0_2: Z
     vector0_3:
       serializedVersion: 2
       minMaxState: 0
@@ -3716,7 +3752,7 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    vectorLabel0_3:
+    vectorLabel0_3: W
     mode1: 0
     vectorComponentCount1: 4
     color1:
@@ -3782,7 +3818,7 @@ ParticleSystem:
         m_Mode: 0
         m_NumColorKeys: 2
         m_NumAlphaKeys: 2
-    colorLabel1:
+    colorLabel1: Color
     vector1_0:
       serializedVersion: 2
       minMaxState: 0
@@ -3800,7 +3836,7 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    vectorLabel1_0:
+    vectorLabel1_0: X
     vector1_1:
       serializedVersion: 2
       minMaxState: 0
@@ -3818,7 +3854,7 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    vectorLabel1_1:
+    vectorLabel1_1: Y
     vector1_2:
       serializedVersion: 2
       minMaxState: 0
@@ -3836,7 +3872,7 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    vectorLabel1_2:
+    vectorLabel1_2: Z
     vector1_3:
       serializedVersion: 2
       minMaxState: 0
@@ -3854,15 +3890,15 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    vectorLabel1_3:
+    vectorLabel1_3: W
 --- !u!198 &90
 ParticleSystem:
-  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 35}
+  serializedVersion: 7
   lengthInSec: 5
   simulationSpeed: 1
   stopAction: 0
@@ -3882,13 +3918,49 @@ ParticleSystem:
     minScalar: 0
     maxCurve:
       serializedVersion: 2
-      m_Curve: []
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     minCurve:
       serializedVersion: 2
-      m_Curve: []
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -4215,8 +4287,8 @@ ParticleSystem:
           m_PostInfinity: 2
           m_RotationOrder: 4
   EmissionModule:
-    serializedVersion: 4
     enabled: 1
+    serializedVersion: 4
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
@@ -5435,8 +5507,8 @@ ParticleSystem:
         m_NumAlphaKeys: 2
     range: {x: 0, y: 3}
   CollisionModule:
-    serializedVersion: 4
     enabled: 0
+    serializedVersion: 4
     type: 0
     collisionMode: 0
     colliderForce: 0
@@ -5508,8 +5580,8 @@ ParticleSystem:
     collidesWithDynamic: 1
     interiorCollisions: 0
   TriggerModule:
-    serializedVersion: 2
     enabled: 0
+    serializedVersion: 2
     inside: 1
     outside: 0
     enter: 0
@@ -5812,7 +5884,7 @@ ParticleSystem:
         m_Mode: 0
         m_NumColorKeys: 2
         m_NumAlphaKeys: 2
-    colorLabel0:
+    colorLabel0: Color
     vector0_0:
       serializedVersion: 2
       minMaxState: 0
@@ -5830,7 +5902,7 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    vectorLabel0_0:
+    vectorLabel0_0: X
     vector0_1:
       serializedVersion: 2
       minMaxState: 0
@@ -5848,7 +5920,7 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    vectorLabel0_1:
+    vectorLabel0_1: Y
     vector0_2:
       serializedVersion: 2
       minMaxState: 0
@@ -5866,7 +5938,7 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    vectorLabel0_2:
+    vectorLabel0_2: Z
     vector0_3:
       serializedVersion: 2
       minMaxState: 0
@@ -5884,7 +5956,7 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    vectorLabel0_3:
+    vectorLabel0_3: W
     mode1: 0
     vectorComponentCount1: 4
     color1:
@@ -5950,7 +6022,7 @@ ParticleSystem:
         m_Mode: 0
         m_NumColorKeys: 2
         m_NumAlphaKeys: 2
-    colorLabel1:
+    colorLabel1: Color
     vector1_0:
       serializedVersion: 2
       minMaxState: 0
@@ -5968,7 +6040,7 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    vectorLabel1_0:
+    vectorLabel1_0: X
     vector1_1:
       serializedVersion: 2
       minMaxState: 0
@@ -5986,7 +6058,7 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    vectorLabel1_1:
+    vectorLabel1_1: Y
     vector1_2:
       serializedVersion: 2
       minMaxState: 0
@@ -6004,7 +6076,7 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    vectorLabel1_2:
+    vectorLabel1_2: Z
     vector1_3:
       serializedVersion: 2
       minMaxState: 0
@@ -6022,7 +6094,7 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    vectorLabel1_3:
+    vectorLabel1_3: W
 --- !u!199 &91
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -6187,7 +6259,7 @@ SpriteRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -6238,7 +6310,7 @@ SpriteRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -6289,7 +6361,7 @@ SpriteRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -6340,7 +6412,7 @@ SpriteRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -6391,7 +6463,7 @@ SpriteRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -6442,7 +6514,7 @@ SpriteRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -6493,7 +6565,7 @@ SpriteRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -6544,7 +6616,7 @@ SpriteRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -6845,13 +6917,13 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 --- !u!223 &136
 Canvas:
-  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 14}
   m_Enabled: 1
+  serializedVersion: 3
   m_RenderMode: 0
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
@@ -7128,7 +7200,7 @@ RectTransform:
   - {fileID: 159}
   - {fileID: 143}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -7753,8 +7825,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -619905303, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
@@ -7768,8 +7840,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -7791,7 +7863,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "School Lane:\nThis is the location of Chanceton Public School! Housing all the way from 6-12th grade, this is where you'll begin your career, and take your required and optional classes."
+  m_Text: 'School Lane:
+
+    This is the location of Chanceton Public School! Housing
+    all the way from 6-12th grade, this is where you''ll begin your career, and take
+    your required and optional classes.'
 --- !u!114 &183
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7802,8 +7878,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -7825,7 +7901,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "The Gated Community:\nThis is where most of the wealthy residents of chanceton reside, scenic views complete with a golf course."
+  m_Text: 'The Gated Community:
+
+    This is where most of the wealthy residents
+    of chanceton reside, scenic views complete with a golf course.'
 --- !u!114 &184
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7836,8 +7915,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.9960785, g: 0.40000004, b: 0, a: 1}
   m_RaycastTarget: 1
@@ -7870,8 +7949,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1392445389, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
     m_WrapAround: 0
@@ -7913,7 +7992,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument:
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &186
@@ -7926,8 +8005,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -7956,8 +8035,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 79ce60d50ea33a4ee14c0668766465fa, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   playerStats: {fileID: 0}
 --- !u!114 &188
 MonoBehaviour:
@@ -7969,8 +8048,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -7992,7 +8071,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "The lower income neighborhood:\nTrailer houses and RV housing can be found here. This housing is much more affordable than any other place in town.\n"
+  m_Text: 'The lower income neighborhood:
+
+    Trailer houses and RV housing can
+    be found here. This housing is much more affordable than any other place in town.
+
+'
 --- !u!114 &189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8002,29 +8086,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 9}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 938447500, guid: c88ab7b37c4f350242674d2efd621c19, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  m_RenderShadows: 1
-  m_RequiresDepthTextureOption: 2
-  m_RequiresOpaqueTextureOption: 2
-  m_CameraType: 0
-  m_Cameras: []
-  m_RendererIndex: -1
-  m_VolumeLayerMask:
-    serializedVersion: 2
-    m_Bits: 1
-  m_VolumeTrigger: {fileID: 0}
-  m_RenderPostProcessing: 0
-  m_Antialiasing: 0
-  m_AntialiasingQuality: 2
-  m_StopNaN: 0
-  m_Dithering: 0
-  m_ClearDepth: 1
-  m_AllowXRRendering: 1
-  m_RequiresDepthTexture: 0
-  m_RequiresColorTexture: 0
-  m_Version: 2
+  m_Script: {fileID: 11500000, guid: bbe7700f9732df029498b31ad05eb0f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CameraTarget: {fileID: 0}
+  FollowDistance: 30
+  MaxFollowDistance: 100
+  MinFollowDistance: 2
+  ElevationAngle: 30
+  MaxElevationAngle: 85
+  MinElevationAngle: 0
+  OrbitalAngle: 0
+  CameraMode: 0
+  MovementSmoothing: 1
+  RotationSmoothing: 0
+  MovementSmoothingValue: 25
+  RotationSmoothingValue: 5
+  MoveSensitivity: 2
 --- !u!114 &190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8035,8 +8113,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.9960785, g: 0.40000004, b: 0, a: 1}
   m_RaycastTarget: 1
@@ -8069,8 +8147,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -8092,7 +8170,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: At school, you're given a free period at 11 AM and a lunch period at 12 PM. During your free period you can hang out with friends or study in the Library, and during lunch you can grab a bite to eat in the cafeteria.
+  m_Text: At school, you're given a free period at 11 AM and a lunch period at 12
+    PM. During your free period you can hang out with friends or study in the Library,
+    and during lunch you can grab a bite to eat in the cafeteria.
 --- !u!114 &192
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8103,8 +8183,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.9960785, g: 0.40000004, b: 0, a: 1}
   m_RaycastTarget: 1
@@ -8137,8 +8217,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -8160,7 +8240,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Chanceton University:\nIf you're interested in continuing education after high school, Chanceton University has what you're looking for! Comprised of 4 colleges, you can train for whatever career you desire!"
+  m_Text: 'Chanceton University:
+
+    If you''re interested in continuing education
+    after high school, Chanceton University has what you''re looking for! Comprised
+    of 4 colleges, you can train for whatever career you desire!'
 --- !u!114 &194
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8171,8 +8255,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1301386320, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_IgnoreReversedGraphics: 1
   m_BlockingObjects: 0
   m_BlockingMask:
@@ -8188,8 +8272,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1980459831, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
@@ -8211,8 +8295,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.9960785, g: 0.40000004, b: 0, a: 1}
   m_RaycastTarget: 1
@@ -8245,8 +8329,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.9960785, g: 0.40000004, b: 0, a: 1}
   m_RaycastTarget: 1
@@ -8279,8 +8363,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cb49cc680bf81f4635206e6e771cdfdd, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   songs:
   - {fileID: 8300000, guid: fcf2e2f920461424dacc51ddde6067d9, type: 3}
   - {fileID: 8300000, guid: cf1d2bd23e313fd40ac4d4101268bd1d, type: 3}
@@ -8316,8 +8400,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.5411765, g: 0.1254902, b: 0.019607844, a: 1}
   m_RaycastTarget: 1
@@ -8350,8 +8434,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -8373,7 +8457,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You'll also be able to spend your time hanging out with your friends, watching TV, or working out. These are things that will help to decrease your stress levels but may not train your other stats as effectively.
+  m_Text: You'll also be able to spend your time hanging out with your friends, watching
+    TV, or working out. These are things that will help to decrease your stress levels
+    but may not train your other stats as effectively.
 --- !u!114 &201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8384,8 +8470,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1077351063, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -8403,8 +8489,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1392445389, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
     m_WrapAround: 0
@@ -8446,7 +8532,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument:
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &203
@@ -8459,8 +8545,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -8489,8 +8575,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -98529514, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -8516,8 +8602,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 47bb071ee947de0187d707908400a8d3, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   pages:
   - {fileID: 38}
   - {fileID: 4}
@@ -8538,8 +8624,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.9960785, g: 0.40000004, b: 0, a: 1}
   m_RaycastTarget: 1
@@ -8572,8 +8658,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -8595,7 +8681,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Before you sleep, you can walk to your alarm clock to set your morning wake up time. Just make sure you wake up early enough to make it to your first class at 8AM.
+  m_Text: Before you sleep, you can walk to your alarm clock to set your morning
+    wake up time. Just make sure you wake up early enough to make it to your first
+    class at 8AM.
 --- !u!114 &208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8606,8 +8694,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1392445389, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
     m_WrapAround: 0
@@ -8649,7 +8737,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument:
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &209
@@ -8662,8 +8750,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -8692,8 +8780,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -8726,8 +8814,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -8760,8 +8848,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -8790,8 +8878,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -8813,7 +8901,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text:
+  m_Text: 
 --- !u!114 &214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8824,8 +8912,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.5411765, g: 0.1254902, b: 0.019607844, a: 1}
   m_RaycastTarget: 1
@@ -8847,7 +8935,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '<'
+  m_Text: <
 --- !u!114 &215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8858,8 +8946,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.9960785, g: 0.40000004, b: 0, a: 1}
   m_RaycastTarget: 1
@@ -8892,8 +8980,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -8915,7 +9003,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: At the end of the day, you can walk to your bed to sleep and start the next day. You'll be able to see a recap of your day's events, and then a chance to choose your schedule for the next day. The longer you sleep, the more stress you'll be able to sleep off.
+  m_Text: At the end of the day, you can walk to your bed to sleep and start the
+    next day. You'll be able to see a recap of your day's events, and then a chance
+    to choose your schedule for the next day. The longer you sleep, the more stress
+    you'll be able to sleep off.
 --- !u!114 &217
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8926,8 +9017,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -8949,7 +9040,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Once school has ended, there are multiple options for how to spend your time before you go to sleep. You can study using the bookshelf in your room. You'll be able to study any subject, even ones for classes you aren't currently taking! Just make sure to watch your stress levels.
+  m_Text: Once school has ended, there are multiple options for how to spend your
+    time before you go to sleep. You can study using the bookshelf in your room.
+    You'll be able to study any subject, even ones for classes you aren't currently
+    taking! Just make sure to watch your stress levels.
 --- !u!114 &218
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8960,8 +9054,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4a9a5c866aee035c102203e8a1662cee, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   areaTrack: 0
   areaNightTrack: 0
 --- !u!114 &219
@@ -8974,8 +9068,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -8997,7 +9091,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Town Square:\nThis is the hub that connects all 7 regions of Chanceton. It's also the one stop shop for most things that you might need to find in town, and you can often find your schoolmates here!"
+  m_Text: 'Town Square:
+
+    This is the hub that connects all 7 regions of Chanceton.
+    It''s also the one stop shop for most things that you might need to find in town,
+    and you can often find your schoolmates here!'
 --- !u!114 &220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9008,8 +9106,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.9960785, g: 0.40000004, b: 0, a: 1}
   m_RaycastTarget: 1
@@ -9042,8 +9140,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -9072,8 +9170,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -9102,8 +9200,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c1f12edbfa090369c90fa471f91963ba, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   playerStats: {fileID: 231}
   morningColor: {r: 1, g: 0.99, b: 0.77, a: 1}
   dayColor: {r: 1, g: 1, b: 1, a: 1}
@@ -9120,8 +9218,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -265003037, guid: c88ab7b37c4f350242674d2efd621c19, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_LightType: 4
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
@@ -9161,8 +9259,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -9191,8 +9289,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -9214,7 +9312,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "The Industrial Zone:\nThis is where the heavy machinery, highly technical work in Suburbia gets done. Perhaps not as glamorous as Town Square, but there are a wide variety of professions housed here."
+  m_Text: 'The Industrial Zone:
+
+    This is where the heavy machinery, highly technical
+    work in Suburbia gets done. Perhaps not as glamorous as Town Square, but there
+    are a wide variety of professions housed here.'
 --- !u!114 &227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9225,8 +9327,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.9960785, g: 0.40000004, b: 0, a: 1}
   m_RaycastTarget: 1
@@ -9259,8 +9361,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.043137256, g: 0.23529413, b: 0.015686275, a: 1}
   m_RaycastTarget: 1
@@ -9293,8 +9395,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: d3e719b59ab71ba3f6b398058c866280, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -9316,7 +9418,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Suburbia Drive:\nMiddle class housing, and the home of you and your parents! This is where you'll come home to sleep until you are able to move out on your own."
+  m_Text: 'Suburbia Drive:
+
+    Middle class housing, and the home of you and your
+    parents! This is where you''ll come home to sleep until you are able to move
+    out on your own.'
 --- !u!114 &230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9327,8 +9433,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3c0c10af027563e7db15d0d2fdb40e44, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9339,8 +9445,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0fba5887901dbc08a44c593f4a958b23, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   playerTransform: {fileID: 75}
   staticScript: {fileID: 230}
   stem: 20
@@ -9364,7 +9470,7 @@ MonoBehaviour:
   artText: {fileID: 0}
   healthText: {fileID: 0}
   stressText: {fileID: 0}
-  playerName:
+  playerName: 
   sex: 0
   skinTone: 0
   eyeColor: 0
@@ -9376,7 +9482,7 @@ MonoBehaviour:
   classGrades: 0000000000000000000000000000000000000000
   career: 0
   salary: 0
-  home:
+  home: 
   careerText: {fileID: 0}
   salaryText: {fileID: 0}
   classText:
@@ -9405,8 +9511,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4f42f313cbff97639058075ec6f62fc9, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   transform: {fileID: 75}
   boxCollider2D: {fileID: 79}
   levelMaxHeight: 27
@@ -9421,5 +9527,332 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c00229358ea83366492c68f5a7b08ce2, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
+  rb: {fileID: 78}
+  canSprint: 1
+  direction: 3
+  playerStats: {fileID: 231}
+  player: {fileID: 57}
+  time: 0
+  Peach: {r: 1, g: 1, b: 1, a: 1}
+  Tan: {r: 0.8, g: 0.72, b: 0.51, a: 1}
+  Brown: {r: 0.51, g: 0.43, b: 0.34, a: 1}
+  hairRed: {r: 0.8867924, g: 0.3765489, b: 0.1455678, a: 1}
+  hairBlack: {r: 0.22, g: 0.1792453, b: 0.185, a: 1}
+  hairBrown: {r: 0.4056604, g: 0.2486829, b: 0.1775721, a: 1}
+  hairBlonde: {r: 1, g: 0.9789482, b: 0.4849057, a: 1}
+  hairGrey: {r: 0.6981132, g: 0.6981132, b: 0.6981132, a: 1}
+  bodyRenderer: {fileID: 95}
+  eyeRenderer: {fileID: 98}
+  hairRenderer: {fileID: 94}
+  shirtRenderer: {fileID: 93}
+  pantRenderer: {fileID: 100}
+  armRenderer: {fileID: 97}
+  accesoryRenderer: {fileID: 96}
+  redShirt:
+  - {fileID: 21300000, guid: f6a0a70410700ee4a959e9600630ad9a, type: 2}
+  - {fileID: 21300000, guid: 856e05de8f62c1a4ba2a3efa3fd77e8e, type: 2}
+  - {fileID: 21300000, guid: 42bd7b331eaa5bc488ced3d4a9c56886, type: 2}
+  - {fileID: 21300000, guid: aa3259e61898b674fb95a9185b1e820c, type: 2}
+  - {fileID: 21300000, guid: dbe3b19f5ceffac44bb3c4b021dae0d6, type: 2}
+  - {fileID: 21300000, guid: 5d5eaf9500263244db218207e0242d89, type: 2}
+  - {fileID: 21300000, guid: 8d3e664913ef115498f49b69af9aacf9, type: 2}
+  - {fileID: 21300000, guid: 22cd50c9f0f53614ab74c8640619c726, type: 2}
+  - {fileID: 21300000, guid: 5625dba883cb50a4c93bff7a66866590, type: 2}
+  - {fileID: 21300000, guid: 64b2ef73a9ce8d74082ce3f0ce26413d, type: 2}
+  - {fileID: 21300000, guid: a5d2bd988856b3841a77f59daf0e8e9f, type: 2}
+  - {fileID: 21300000, guid: 5ef9af8170c31f647bc7819239ed9d34, type: 2}
+  orangeShirt:
+  - {fileID: 21300000, guid: 61748ea3fe9aca64f82052e96f138855, type: 2}
+  - {fileID: 21300000, guid: eb1b01d424c15dc4d9f29e3520632990, type: 2}
+  - {fileID: 21300000, guid: 5f5e021694656fe49be89b081630d9bb, type: 2}
+  - {fileID: 21300000, guid: 7dcf8179611556943b24d2df9fee0322, type: 2}
+  - {fileID: 21300000, guid: ffcfbcbce1d04a741a26b34166cc744c, type: 2}
+  - {fileID: 21300000, guid: 9afe0393c4c7f8f41b1c2d071781ab77, type: 2}
+  - {fileID: 21300000, guid: d279d4bab7b23164d869e2dce9ee12b0, type: 2}
+  - {fileID: 21300000, guid: a14395e858c7bf44ab64a66264f427cd, type: 2}
+  - {fileID: 21300000, guid: 0df650a13bda5f241a5a4a5c1422fe9b, type: 2}
+  - {fileID: 21300000, guid: 06119222e4bc32e43a6b6a7c07f9b570, type: 2}
+  - {fileID: 21300000, guid: 324d42c719b50b84fa367a09f0463391, type: 2}
+  - {fileID: 21300000, guid: 84bfb5c51350c494db2ca74ce2c61e18, type: 2}
+  yellowShirt:
+  - {fileID: 21300000, guid: 88aca7ad76af810469beb32454e7a73d, type: 2}
+  - {fileID: 21300000, guid: 3da48869ff8d35540859252f6a528195, type: 2}
+  - {fileID: 21300000, guid: a08df91cbff136e48b38c6e42e3add6b, type: 2}
+  - {fileID: 21300000, guid: 89d4b58917d7c034989737c713e8de32, type: 2}
+  - {fileID: 21300000, guid: 6d8f5fd7c0765be4f8065cb0b8c7132e, type: 2}
+  - {fileID: 21300000, guid: fa59e2f3e0fc05e4c863d3148ead4579, type: 2}
+  - {fileID: 21300000, guid: e3098f6511c8d95409f7690123d0a3e8, type: 2}
+  - {fileID: 21300000, guid: fdc3fdc35ab03fe4d865066fad589238, type: 2}
+  - {fileID: 21300000, guid: 52f72a78ac618c642ac1b4b7b0f5608a, type: 2}
+  - {fileID: 21300000, guid: a3f6db59f2d62fb449bc9f84bc23712d, type: 2}
+  - {fileID: 21300000, guid: ef8406678a862d048b5d72575fea406e, type: 2}
+  - {fileID: 21300000, guid: d7b7cf534dbcc58418b4234b6238bb43, type: 2}
+  greenShirt:
+  - {fileID: 21300000, guid: 0998ecf9a11453a41ba6e955695c02f9, type: 2}
+  - {fileID: 21300000, guid: a2fd9e61c066d0e4780ecb15a163fb6e, type: 2}
+  - {fileID: 21300000, guid: b82934dc0aa6b7e40a0a162beb452974, type: 2}
+  - {fileID: 21300000, guid: 9f4c47dbcb288ea4c982c74ce8b77507, type: 2}
+  - {fileID: 21300000, guid: fd2e2bfc58a1c6f4e84735779220c19f, type: 2}
+  - {fileID: 21300000, guid: dbb440b44d9e7a244801eecb31ca9630, type: 2}
+  - {fileID: 21300000, guid: 9c705451eacb2dd4b91bbb7da14b41c2, type: 2}
+  - {fileID: 21300000, guid: 11aec2fb1a0fd404b802b863259d707d, type: 2}
+  - {fileID: 21300000, guid: 0bddc1911cd82ba4a81ec6b69eb1c71a, type: 2}
+  - {fileID: 21300000, guid: c2cb13834b3621d4a8cdb9761d735154, type: 2}
+  - {fileID: 21300000, guid: 4b421289ffa38f74a901fd57958f1866, type: 2}
+  - {fileID: 21300000, guid: 82ecd12be01dae6459e3b78ad88ddb4e, type: 2}
+  blueShirt:
+  - {fileID: 21300000, guid: 9dbfd5964c11994488317bf9c0cbf5d9, type: 2}
+  - {fileID: 21300000, guid: 58d2c6d5d46b54241b44634a1b2ac438, type: 2}
+  - {fileID: 21300000, guid: f75bf69a6badf414690fef77e44025a1, type: 2}
+  - {fileID: 21300000, guid: c746cdf0a6cf5a54aa14888100b3a770, type: 2}
+  - {fileID: 21300000, guid: 5c79aad4917d6ec40a27553e16952e47, type: 2}
+  - {fileID: 21300000, guid: a3d073accfbd11b47ad834abafe61a51, type: 2}
+  - {fileID: 21300000, guid: 900ae87ce63a0bf43a7a3ae969dee7aa, type: 2}
+  - {fileID: 21300000, guid: 270a703a39ed6b84fb0707adf0b5eccf, type: 2}
+  - {fileID: 21300000, guid: e18b9eea39697b84bb7c8f1847412802, type: 2}
+  - {fileID: 21300000, guid: 8afcc5dfdd80e0c4eb92926c3e95e4ef, type: 2}
+  - {fileID: 21300000, guid: d2da975c5c8ac664f80bcc1c8bae9ae3, type: 2}
+  - {fileID: 21300000, guid: fd0eb621a7029164b8e25172fc7332f5, type: 2}
+  purpleShirt:
+  - {fileID: 21300000, guid: 1d56e8c93b5fe8b4f9924a1393ced0a3, type: 2}
+  - {fileID: 21300000, guid: fded4ab29c06942469f96ac6a399ab42, type: 2}
+  - {fileID: 21300000, guid: e542ead5bde274a4c90d296bcbddbb20, type: 2}
+  - {fileID: 21300000, guid: 7ed37901a14f3ee45bc8a3fa34b43a38, type: 2}
+  - {fileID: 21300000, guid: 494bd6173d82a834296a24fba315a2ab, type: 2}
+  - {fileID: 21300000, guid: 7b9a6d39585e651468fd04d61afd75da, type: 2}
+  - {fileID: 21300000, guid: 96490b484e7b3474d9e7faa081375b3b, type: 2}
+  - {fileID: 21300000, guid: 298aea0879b5fde48b5bd75584326326, type: 2}
+  - {fileID: 21300000, guid: 8754c04308bf3c040a1561bf50827120, type: 2}
+  - {fileID: 21300000, guid: af9222fb1e2c69144803fe1b268e7dc2, type: 2}
+  - {fileID: 21300000, guid: c6f10a0889b7ff749acd22b5a2c058a1, type: 2}
+  - {fileID: 21300000, guid: a19f116bc13c7274eace64f2adffde61, type: 2}
+  blackShirt:
+  - {fileID: 21300000, guid: 41546d4da06795549a32dba10043fd5c, type: 2}
+  - {fileID: 21300000, guid: 7c1b67f5b991a5c44b1390d7b2811847, type: 2}
+  - {fileID: 21300000, guid: ea75363c22fbb4e428c773f2fdf8cd8e, type: 2}
+  - {fileID: 21300000, guid: 0895973095a2c87449f3cae4141debb2, type: 2}
+  - {fileID: 21300000, guid: bbf5f8c3350b4bd41834100eebf4f220, type: 2}
+  - {fileID: 21300000, guid: de5a4481f1212584f97eb034b0932e53, type: 2}
+  - {fileID: 21300000, guid: 27af3943067cffb4b8ede11654eec92c, type: 2}
+  - {fileID: 21300000, guid: b936d23501bf50f43826066c4cd2e76b, type: 2}
+  - {fileID: 21300000, guid: fa4868b875ef8ec4b8775658af464b99, type: 2}
+  - {fileID: 21300000, guid: 6e43666180be8af4d8decb11c6ededf1, type: 2}
+  - {fileID: 21300000, guid: 7f44c89041238a441b06cdbdc93656d1, type: 2}
+  - {fileID: 21300000, guid: 3a75e77418d295945abb2860a0b8990d, type: 2}
+  brownShirt:
+  - {fileID: 21300000, guid: bfd792469cb1a8644a89e601dec5651e, type: 2}
+  - {fileID: 21300000, guid: eb521033b1c4dd74e93fe126a35a1eb7, type: 2}
+  - {fileID: 21300000, guid: ddb0be31e32cedc429d5d13c9add4038, type: 2}
+  - {fileID: 21300000, guid: a797abef934bb354a8de596461d27b32, type: 2}
+  - {fileID: 21300000, guid: 06b6d25eb26cd4947b88fa76e8464166, type: 2}
+  - {fileID: 21300000, guid: e9dd53050460f3b46b3059e9f0d00952, type: 2}
+  - {fileID: 21300000, guid: 1fe6cf0a4c8c1bd47ba97003b31afbb4, type: 2}
+  - {fileID: 21300000, guid: 3e56873fe56d33941a715cad4859236c, type: 2}
+  - {fileID: 21300000, guid: c30a2816555f15e4e8576d84050d23d8, type: 2}
+  - {fileID: 21300000, guid: f3a399bf269aa9945aa7a90b04b61f45, type: 2}
+  - {fileID: 21300000, guid: c69ac6c443006b549a55408cb313d70e, type: 2}
+  - {fileID: 21300000, guid: f2b39982d13ff1d448ffd3039ce30655, type: 2}
+  whiteShirt:
+  - {fileID: 21300000, guid: 709d7eaae00532742a548816892f25b0, type: 2}
+  - {fileID: 21300000, guid: a93f569441bc6114690f4e67aa8787e1, type: 2}
+  - {fileID: 21300000, guid: cdb658d5156f2c34d99d7ce84b90d51b, type: 2}
+  - {fileID: 21300000, guid: 79b1e4b02d4e74a4c9f910d9ce338e61, type: 2}
+  - {fileID: 21300000, guid: 1efc79878bd72224bae26d15f2f08a41, type: 2}
+  - {fileID: 21300000, guid: f8178e2efff1d074d8501136361229f0, type: 2}
+  - {fileID: 21300000, guid: f413244f5e98bc84fac684d1d45d84d5, type: 2}
+  - {fileID: 21300000, guid: e3fde2e0a12a558449a967566b674aa3, type: 2}
+  - {fileID: 21300000, guid: 7c394ef1ab2ae9a4bbd56470f112adbf, type: 2}
+  - {fileID: 21300000, guid: 36ec9bd2b83eb6e469d7840c2f456382, type: 2}
+  - {fileID: 21300000, guid: ca71066a852275348be98f9d4b732553, type: 2}
+  - {fileID: 21300000, guid: d2a707e700091404bb0df5872abe0b55, type: 2}
+  bodyFrames:
+  - {fileID: 21300000, guid: 342d2434aeb328841bc533afdfcce19b, type: 2}
+  - {fileID: 21300000, guid: 23451ac53a1a2074dbb6c3842705028a, type: 2}
+  - {fileID: 21300000, guid: 909cd8d422b7e5041aed7c887ec24569, type: 2}
+  - {fileID: 21300000, guid: d243cdb686eb16c4499cb6afbc22ce04, type: 2}
+  - {fileID: 21300000, guid: 7ad846a5c3cd2214da9c8ed5438ebf1f, type: 2}
+  - {fileID: 21300000, guid: f122ca12ca3f9994db2788efd394c639, type: 2}
+  - {fileID: 21300000, guid: d0c5ec242e1de994e9e87778d5666e4e, type: 2}
+  - {fileID: 21300000, guid: c548c2d50d08cb04fb94e006c3c42aa7, type: 2}
+  - {fileID: 21300000, guid: 04079ed8a4c977347ac6b2e9868881cb, type: 2}
+  - {fileID: 21300000, guid: 14a6094a2d667484993206910a81b392, type: 3}
+  - {fileID: 21300000, guid: 08955d241f035244db0867980406bc3a, type: 3}
+  - {fileID: 21300000, guid: 08955d241f035244db0867980406bc3a, type: 3}
+  sweptHair:
+  - {fileID: 21300000, guid: 586e9c7d986857141857959c65dd333f, type: 2}
+  - {fileID: 21300000, guid: 7ce090731c27b20429544db797b66d60, type: 2}
+  - {fileID: 21300000, guid: 92bc4da74678423479fccb0a0102c238, type: 2}
+  - {fileID: 21300000, guid: 94084305c27a78b48ab3280143d85db7, type: 2}
+  - {fileID: 21300000, guid: 4379e628d0898ba428e7b2e261e9c69a, type: 2}
+  - {fileID: 21300000, guid: 04587e3601a0c664b806ce7b10c5fee9, type: 2}
+  - {fileID: 21300000, guid: daf52d5a71ccb7941b24f42f4c89252d, type: 2}
+  - {fileID: 21300000, guid: 1e636640c2c620a4fa916a4eba7a4195, type: 2}
+  - {fileID: 21300000, guid: f8dc49b0b1b637b4bbd2fb775c9d3394, type: 2}
+  - {fileID: 21300000, guid: 1c81caafb7292a546b1f30ce9b0474dc, type: 2}
+  - {fileID: 21300000, guid: cbc9acd04529db44081fb1302d46be21, type: 2}
+  - {fileID: 21300000, guid: f03fb49a1bdabd3419ace8217e795dd7, type: 2}
+  buzzedHair:
+  - {fileID: 21300000, guid: 072e9d4f2551a2d459940f73971226d7, type: 2}
+  - {fileID: 21300000, guid: 71fc4674d5f3f4144b861ed3f2b199d0, type: 2}
+  - {fileID: 21300000, guid: d346779f1c9cec14ea2c7b88cd152473, type: 2}
+  - {fileID: 21300000, guid: b98a4fef4896c8140b11688bc7c00cec, type: 2}
+  - {fileID: 21300000, guid: 58e72b2191162cd45bc15370869619d8, type: 2}
+  - {fileID: 21300000, guid: 7ad43ae6c20fc5349869860bf6c19ebc, type: 2}
+  - {fileID: 21300000, guid: c86c37cb348b1574ebfae15b958c0b81, type: 2}
+  - {fileID: 21300000, guid: 0c3087273baf364478c6834dfd389956, type: 2}
+  - {fileID: 21300000, guid: db59bf05dbe49da4296d70c1d909af12, type: 2}
+  - {fileID: 21300000, guid: 42c5e331745970240b468cbed84f939b, type: 2}
+  - {fileID: 21300000, guid: b7924cdebdb19054a85b2dc0d27b72ff, type: 2}
+  - {fileID: 21300000, guid: 53b71200b0f1bc0438444f66acde7cec, type: 2}
+  fluffyHair:
+  - {fileID: 21300000, guid: d15b5395df3e4034ea7c181be04f4dbb, type: 2}
+  - {fileID: 21300000, guid: 722f945121abe5742b759d006d4fd562, type: 2}
+  - {fileID: 21300000, guid: 395b337dbfb63ac4b8a462f93c6bbe59, type: 2}
+  - {fileID: 21300000, guid: 9209ece6a265f1e4bb263e5ee25540c8, type: 2}
+  - {fileID: 21300000, guid: a0b4dacda54d23847b2c17ee38f85d51, type: 2}
+  - {fileID: 21300000, guid: 8ff425eaeafb91b4e9234d452646d2c7, type: 2}
+  - {fileID: 21300000, guid: 9c1e6aa300a6c7048a4b7cf472218178, type: 2}
+  - {fileID: 21300000, guid: 055b4f5978a809643954b89eea51e7bc, type: 2}
+  - {fileID: 21300000, guid: b5319cce9997b7e4589767203ebfefc4, type: 2}
+  - {fileID: 21300000, guid: 948f02abdde10b64fa8a594674b1abcb, type: 2}
+  - {fileID: 21300000, guid: f56f97fadbf1ca14b853aba30e8558b2, type: 2}
+  - {fileID: 21300000, guid: 9d6bcfeaa587be945ae18b23e7186436, type: 2}
+  mulletHair:
+  - {fileID: 21300000, guid: 7996e37af103e604c92ce686bc8df026, type: 2}
+  - {fileID: 21300000, guid: 6c8855323011ef84e8bd9c19f00d1a08, type: 2}
+  - {fileID: 21300000, guid: ba05999488f77ab41b49677993f10c21, type: 2}
+  - {fileID: 21300000, guid: 1d727231fd4de5945be340ae4597a72b, type: 2}
+  - {fileID: 21300000, guid: 85e8372e1bd53284ba6bcbd1f06ed101, type: 2}
+  - {fileID: 21300000, guid: 35def42faf757d944b7956f7bccd1d47, type: 2}
+  - {fileID: 21300000, guid: 578ee9c2864227740bb7680dc75a112b, type: 2}
+  - {fileID: 21300000, guid: 155f021e4f558dd4f8fb7b35e2ecdd1f, type: 2}
+  - {fileID: 21300000, guid: 9c5b90d08ddc4914580bb373f624fcf7, type: 2}
+  - {fileID: 21300000, guid: d8d98d70f05acd1429925b288940ab72, type: 2}
+  - {fileID: 21300000, guid: ecffe19c257e3c747800277947fc936f, type: 2}
+  - {fileID: 21300000, guid: 906c39d214da4a04db1b267286d87e01, type: 2}
+  brownEyes:
+  - {fileID: 21300000, guid: 87a6113ff2db3a14aad8fea060f60bd5, type: 2}
+  - {fileID: 21300000, guid: 9bc92a635ef6779499f6e410761443c6, type: 2}
+  - {fileID: 21300000, guid: 590d712be19c03c42a77072994f80c86, type: 2}
+  - {fileID: 21300000, guid: b7b737202b0ed9d4083cab60f5bd6e04, type: 2}
+  - {fileID: 21300000, guid: e3d582b5d52c6be4b804e99f893f5d88, type: 2}
+  - {fileID: 21300000, guid: 6e2670eacb9a4f843b939611822b38d4, type: 2}
+  - {fileID: 21300000, guid: 7f0429bc0060f6b4a8dfba1d463269e9, type: 2}
+  - {fileID: 21300000, guid: 94e6a8844c5e5a24c809c30e21f7d48b, type: 2}
+  blueEyes:
+  - {fileID: 21300000, guid: 6b0a2230e58ae9140bd1f8c2979e2626, type: 2}
+  - {fileID: 21300000, guid: 21826dfda2e05a9419da1b341e0b19bf, type: 2}
+  - {fileID: 21300000, guid: 9a0a06c1469fad6468d3ddfff6046377, type: 2}
+  - {fileID: 21300000, guid: 8427be67e93397944b500966a50c954d, type: 2}
+  - {fileID: 21300000, guid: e132ec4cfe3a6dc45a0216c32267551b, type: 2}
+  - {fileID: 21300000, guid: 55987ab4e3525bc44ba179f0de265a57, type: 2}
+  - {fileID: 21300000, guid: b265c21b7a392f045831e0f136c31390, type: 2}
+  - {fileID: 21300000, guid: b2a0e5d2101c3244facd2e3e8d257fec, type: 2}
+  greenEyes:
+  - {fileID: 21300000, guid: 9b4efd626420dbd43bf88f9a1d6c98dd, type: 2}
+  - {fileID: 21300000, guid: b4f1a82f5424f3245a806fe1002a68d2, type: 2}
+  - {fileID: 21300000, guid: e215e497cd9b47f4b9f073548876428e, type: 2}
+  - {fileID: 21300000, guid: 33174a977ba3ae541b9e92ce350774d8, type: 2}
+  - {fileID: 21300000, guid: 53b55b6a45aab8c468faf68c39c8bdb4, type: 2}
+  - {fileID: 21300000, guid: 17755cc4c6bb1494d8691bc81a1fe564, type: 2}
+  - {fileID: 21300000, guid: d164f79eea2de104ab905794315c7559, type: 2}
+  - {fileID: 21300000, guid: 78f1dd781b341e94db091e666ad7f78a, type: 2}
+  hazelEyes:
+  - {fileID: 21300000, guid: b3a60376e4907464188c619cc82f1ce7, type: 2}
+  - {fileID: 21300000, guid: 55e78df316b8757429f6e7eb381752f2, type: 2}
+  - {fileID: 21300000, guid: ce0dcd89f302ce84aac1d167a56a57c6, type: 2}
+  - {fileID: 21300000, guid: e4c715ce6e12ba944aabf7d4a2ec1932, type: 2}
+  - {fileID: 21300000, guid: 345d77eec48bb694280ac93a2ab57920, type: 2}
+  - {fileID: 21300000, guid: 9710d64b8f70775449b04486309cf977, type: 2}
+  - {fileID: 21300000, guid: d4ebd3b805c2cea4b822f749ca9e600d, type: 2}
+  - {fileID: 21300000, guid: 7f4d69e01a30bdf4688d93ab15f9f146, type: 2}
+  greyEyes:
+  - {fileID: 21300000, guid: 5de646aace0f7ef4d992605a95065a3d, type: 2}
+  - {fileID: 21300000, guid: 53abbfb052e3a8d428132b3ce2180f12, type: 2}
+  - {fileID: 21300000, guid: d96c81e9063466e41920a04f11252358, type: 2}
+  - {fileID: 21300000, guid: 7c2a7fe3537010140be26eb2d2501ae4, type: 2}
+  - {fileID: 21300000, guid: 24447183d4e984d46baee3d9760e5d44, type: 2}
+  - {fileID: 21300000, guid: cc8129c4ceb9d1749a1e22c4346eb64e, type: 2}
+  - {fileID: 21300000, guid: 0f394f0752764864da5cfccd13891fba, type: 2}
+  - {fileID: 21300000, guid: f88a49cb1f3f6fc47a0d50cbf5cb5753, type: 2}
+  pantFrames:
+  - {fileID: 21300000, guid: bb65efc1b3e504947b385cafcd656509, type: 2}
+  - {fileID: 21300000, guid: 8d735c64b229ca348a7c51db7b644880, type: 3}
+  - {fileID: 21300000, guid: 40cd33d44a5d9b54eaf38950445df970, type: 2}
+  - {fileID: 21300000, guid: 1606265b3ac9f664bb0eb30dc4fc30a5, type: 3}
+  - {fileID: 21300000, guid: 73efff8e6cb7d0b4e8059d166b71ccf1, type: 2}
+  - {fileID: 21300000, guid: a914b8b7d109e274d92da6170f7f54a2, type: 3}
+  - {fileID: 21300000, guid: e8dc902d9a8ff30468baaaea633dc2cc, type: 2}
+  - {fileID: 21300000, guid: 011f042959ee9294080fd71a564505cd, type: 3}
+  - {fileID: 21300000, guid: 13d5de51e578b2743ac14dfac599bb2d, type: 2}
+  - {fileID: 21300000, guid: 8021f8e5be6a00b459029d53aeccfb1e, type: 3}
+  - {fileID: 21300000, guid: acd2aabea9fe91e4a961cea16f3c233a, type: 2}
+  - {fileID: 21300000, guid: 2fbf8251a82e6e942ac9bc89ecda578f, type: 3}
+  - {fileID: 21300000, guid: 5b69acc72e1e2154da7e98fcc36687ea, type: 2}
+  - {fileID: 21300000, guid: d114e1275f9554c47bcc0400498bf059, type: 3}
+  - {fileID: 21300000, guid: 354afffe8f7554141920fc1c15d8fcdf, type: 2}
+  - {fileID: 21300000, guid: 4cbac90faf6a0e44095102370a6c87cc, type: 3}
+  - {fileID: 21300000, guid: 2821eb337707e704989d5f9e2eabe03c, type: 2}
+  - {fileID: 21300000, guid: 457cab7e7f2d1554d825fa1863b9ba90, type: 3}
+  - {fileID: 21300000, guid: 4af122c7982cfc84a9b5d2d2e4b015a7, type: 2}
+  - {fileID: 21300000, guid: cc41c8a180edb2047812f7faa426e935, type: 3}
+  - {fileID: 21300000, guid: 7f69039177c3d784fa54efa351a7486b, type: 2}
+  - {fileID: 21300000, guid: 953123d07f7b2f04ea2f58cd07515cfa, type: 3}
+  - {fileID: 21300000, guid: ec9ab057a65a6d24d9722a46dced81f6, type: 2}
+  - {fileID: 21300000, guid: 5cf4daea90220fb49b5b0b50d35a6837, type: 3}
+  armFrames:
+  - {fileID: 21300000, guid: e90f49e8637b18443baf1a9da3129927, type: 2}
+  - {fileID: 21300000, guid: 3430c307cc04a564dafe178f979b3d4e, type: 3}
+  - {fileID: 21300000, guid: fd0db437c420ceb44a180dd60490b149, type: 2}
+  - {fileID: 21300000, guid: 48e02d9c8ef25274e81cbb3dc1f5cbbc, type: 3}
+  - {fileID: 21300000, guid: 95a7a0cb354bc4f4a8a549a7b7d71f65, type: 2}
+  - {fileID: 21300000, guid: 9b004ed53adca0a41a63ffc6c6515b85, type: 3}
+  - {fileID: 21300000, guid: 4e5e7695d3f8b1947b640a9779dba874, type: 2}
+  - {fileID: 21300000, guid: 224f365132c827b4098adc3aa583cf66, type: 3}
+  - {fileID: 21300000, guid: ba3c39c78f40c4f4da77a49bfdf4c361, type: 2}
+  - {fileID: 21300000, guid: 8b18e54ca78264948aadf953fb358515, type: 3}
+  - {fileID: 21300000, guid: 23512516d6861534da3a7b5f68b25beb, type: 2}
+  - {fileID: 21300000, guid: 722277bbd5578004cb75f446ee8b0c59, type: 3}
+  - {fileID: 21300000, guid: 1e891c06369b2a64b89e80ef97024914, type: 2}
+  - {fileID: 21300000, guid: fb27f39bc721a664b8e9b63a081132ee, type: 3}
+  - {fileID: 21300000, guid: aab74f5239d45aa479801ec50c23124c, type: 2}
+  - {fileID: 21300000, guid: 3c55ecfa32f9aca41b72dc9aef441d81, type: 3}
+  - {fileID: 21300000, guid: 35d955d8bc92fe04a892c08523527a1f, type: 2}
+  - {fileID: 21300000, guid: 15d77ffccb2a9574cbd6552f06839d26, type: 3}
+  - {fileID: 21300000, guid: 54ef4b267174fd045aa9f6ddf44abcfd, type: 2}
+  - {fileID: 21300000, guid: b6a0e65c53a826840922b6322d13d440, type: 3}
+  - {fileID: 21300000, guid: 931033f5e39a86b4aa5de1c3cb4b887e, type: 2}
+  - {fileID: 21300000, guid: 059b4f12125eade488c02ee43c4c2025, type: 3}
+  - {fileID: 21300000, guid: 0e9a6f505f4dbb24a820a55e634868cc, type: 2}
+  - {fileID: 21300000, guid: bbfde398a69f4454d956443dca27132f, type: 3}
+  noneAcc:
+  - {fileID: 21300000, guid: bd7483c05caf92641bc13aa4876fab16, type: 3}
+  - {fileID: 21300000, guid: bd7483c05caf92641bc13aa4876fab16, type: 3}
+  - {fileID: 21300000, guid: bd7483c05caf92641bc13aa4876fab16, type: 3}
+  - {fileID: 21300000, guid: bd7483c05caf92641bc13aa4876fab16, type: 3}
+  - {fileID: 21300000, guid: bd7483c05caf92641bc13aa4876fab16, type: 3}
+  - {fileID: 21300000, guid: bd7483c05caf92641bc13aa4876fab16, type: 3}
+  - {fileID: 21300000, guid: bd7483c05caf92641bc13aa4876fab16, type: 3}
+  - {fileID: 21300000, guid: bd7483c05caf92641bc13aa4876fab16, type: 3}
+  glassesAcc:
+  - {fileID: 21300000, guid: 0e81104bb79697b439113db255d5b289, type: 2}
+  - {fileID: 21300000, guid: b1b4071b4280b5848ab51f820646b6ae, type: 2}
+  - {fileID: 21300000, guid: dbfbaa69cc5ef624bae542fe24cc7157, type: 2}
+  - {fileID: 21300000, guid: f9b370d2b7aa6eb46871d4e8fc579af2, type: 2}
+  - {fileID: 21300000, guid: fcaae475ee1e0a84f875bd6ad80ecfb3, type: 2}
+  - {fileID: 21300000, guid: b12ec612b9a930f44af7e671d8ee5d7d, type: 2}
+  - {fileID: 21300000, guid: 992643a9860c5d54f8457621710331f2, type: 2}
+  - {fileID: 21300000, guid: fdab863b12ad62340919651889d87177, type: 2}
+--- !u!29 &234
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
