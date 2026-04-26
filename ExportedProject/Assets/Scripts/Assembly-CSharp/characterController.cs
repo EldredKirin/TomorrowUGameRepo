@@ -23,8 +23,6 @@ public class characterController : MonoBehaviour
 
 	private bool isMoving;
 
-	private bool hasPlayed = true;
-
 	private float animationTime = 4f;
 
 	public float time;
@@ -149,6 +147,12 @@ public class characterController : MonoBehaviour
 
 	private void Start()
 	{
+		//ADDED CODE, MAYBE REMOVE LATER
+		shirtList.Clear();
+		eyeList.Clear();
+		hairList.Clear();
+		accesoryList.Clear();
+
 		animator = GetComponent<Animator>();
 		shirtList.Add(redShirt);
 		shirtList.Add(orangeShirt);
@@ -171,7 +175,7 @@ public class characterController : MonoBehaviour
 		accesoryList.Add(noneAcc);
 		accesoryList.Add(glassesAcc);
 	}
-
+	
 	private void Update()
 	{
 		if (Input.GetKey(KeyCode.LeftShift) && canSprint)
@@ -359,7 +363,7 @@ public class characterController : MonoBehaviour
 			}
 		}
 	}
-
+		
 	private void FixedUpdate()
 	{
 		rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
