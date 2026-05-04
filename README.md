@@ -15,3 +15,4 @@ Future Notes:
 2. This is due to the method we used to port the original game from the .exe file to a working unity file.
 3. For any future members working on this project I would suggest trying to work with the scenes so that the game runs smoothly.
 4. Once the scenes are running then you just need to edit the clients website so that it runs a page based on the github pages url.
+5. The first problem we encountered after recovering the files was that the serial fields which are configured in the editor were unbound due to the process of recovery, however this did not fully fix the game.
